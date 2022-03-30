@@ -1,0 +1,51 @@
+.info {
+  width: 70%;
+  height: 50vh;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  top: 15rem;
+}
+.info p {
+  color: grey;
+}
+.info .back {
+  background-color: hsl(176, 90%, 44%);
+  color: white;
+  border: none;
+  max-width: 10rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+.info .back:hover {
+  background-color: hsl(176, 94%, 25%);
+}
+.info .book img {
+  max-width: 2.5rem;
+  height: 2.5rem;
+}
+.info .book {
+  max-width: 10rem;
+  height: 3rem;
+  border: none;
+  color: grey;
+  font-size: 15px;
+  border-radius: 2rem;
+}
+.buttons {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+.book {
+  display: flex;
+  align-items: center;
+}
+.close {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 4rem;
+}

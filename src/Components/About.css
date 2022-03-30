@@ -1,0 +1,9 @@
+.about {
+  max-width: 70%;
+  min-height: inherit;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  top: 48rem;
+  text-align: left;
+  padding: 2rem;
+}

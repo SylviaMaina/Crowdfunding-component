@@ -1,0 +1,22 @@
+.stats {
+  max-width: 90%;
+  min-height: 20vh;
+  border-radius: 2rem;
+  top: 36rem;
+}
+.stats ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stats li {
+  list-style: none;
+  font-size: 15px;
+  color: hsl(0, 0%, 50%);
+  margin: 2rem;
+}
+.stats span {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
